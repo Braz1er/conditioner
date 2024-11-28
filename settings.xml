@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <temperature>27.000000</temperature>
+    <humidity>50</humidity>
+    <pressure>760.000000</pressure>
+    <airdirection>-21</airdirection>
+    <temperatureUnit>°C</temperatureUnit>
+    <pressureUnit>mmHg</pressureUnit>
+</settings>

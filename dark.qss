@@ -1,0 +1,76 @@
+/* Общее оформление фона */
+QWidget {
+    background-color: #2E2E2E; /* Темно-серый фон */
+    color: #FFFFFF; /* Белый текст */
+}
+
+/* Кнопки */
+QPushButton {
+    background-color: #444444; /* Темно-серый для кнопок */
+    color: #FFFFFF; /* Белый текст */
+    border: 1px solid #666666; /* Серо-черная граница */
+    border-radius: 5px; /* Закругленные углы */
+    padding: 5px 10px;
+}
+
+QPushButton:hover {
+    background-color: #555555; /* Светлее при наведении */
+}
+
+QPushButton:pressed {
+    background-color: #333333; /* Темнее при нажатии */
+}
+
+/* Метки (Labels) */
+QLabel {
+    color: #FFFFFF; /* Белый текст */
+}
+
+/* Комбо-боксы */
+QComboBox {
+    background-color: #3E3E3E; /* Темно-серый фон */
+    color: #FFFFFF; /* Белый текст */
+    border: 1px solid #666666; /* Серо-черная граница */
+    border-radius: 3px;
+    padding: 2px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #444444; /* Фон выпадающего списка */
+    color: #FFFFFF; /* Белый текст */
+    border: 1px solid #666666; /* Граница выпадающего списка */
+}
+
+/* Ползунки (Sliders) */
+QSlider::groove:horizontal {
+    border: 1px solid #666666;
+    height: 4px;
+    background: #555555;
+}
+
+QSlider::handle:horizontal {
+    background: #888888; /* Серый ползунок */
+    border: 1px solid #AAAAAA; /* Светло-серая граница */
+    width: 10px;
+    margin: -5px 0;
+    border-radius: 5px;
+}
+
+/* Таблицы */
+QTableWidget {
+    background-color: #3E3E3E;
+    color: #FFFFFF;
+    border: 1px solid #666666;
+}
+
+QHeaderView::section {
+    background-color: #444444; /* Темно-серый фон заголовков */
+    color: #FFFFFF; /* Белый текст */
+    border: 1px solid #666666;
+}
+
+/* Состояние виджетов */
+QWidget:disabled {
+    background-color: #555555; /* Темно-серый фон */
+    color: #888888; /* Светло-серый текст */
+}

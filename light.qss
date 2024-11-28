@@ -1,0 +1,84 @@
+/* Общее оформление фона */
+QWidget {
+    background-color: #FFFFFF; /* Белый фон */
+    color: #000000; /* Черный текст */
+}
+
+/* Кнопки */
+QPushButton {
+    background-color: #E0E0E0; /* Светло-серый для выделения */
+    color: #000000; /* Черный текст */
+    border: 1px solid #CCCCCC; /* Светло-серая граница */
+    border-radius: 5px; /* Закругленные углы */
+    padding: 5px 10px;
+}
+
+QPushButton:hover {
+    background-color: #D6D6D6; /* Чуть темнее при наведении */
+}
+
+QPushButton:pressed {
+    background-color: #C0C0C0; /* Более темный серый при нажатии */
+}
+
+/* Метки (Labels) */
+QLabel {
+    color: #000000; /* Черный текст */
+}
+
+/* Комбо-боксы */
+QComboBox {
+    background-color: #FFFFFF; /* Белый фон */
+    color: #000000; /* Черный текст */
+    border: 1px solid #CCCCCC; /* Светло-серая граница */
+    border-radius: 3px;
+    padding: 2px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #FFFFFF; /* Белый фон выпадающего списка */
+    color: #000000; /* Черный текст */
+    border: 1px solid #CCCCCC; /* Светло-серая граница */
+}
+
+/* Ползунки (Sliders) */
+QSlider::groove:horizontal {
+    border: 1px solid #CCCCCC;
+    height: 4px;
+    background: #E0E0E0;
+}
+
+QSlider::handle:horizontal {
+    background: #888888; /* Серый ползунок */
+    border: 1px solid #666666; /* Темно-серая граница */
+    width: 10px;
+    margin: -5px 0;
+    border-radius: 5px;
+}
+
+/* Таблицы */
+QTableWidget {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 1px solid #CCCCCC;
+}
+
+QHeaderView::section {
+    background-color: #F5F5F5; /* Светло-серый фон заголовков */
+    color: #000000; /* Черный текст */
+    border: 1px solid #CCCCCC;
+}
+
+/* Состояние виджетов */
+QWidget:disabled {
+    background-color: #F0F0F0; /* Светло-серый фон */
+    color: #A0A0A0; /* Серый текст */
+}
+
+
+/* QGraphicsView (контейнер для QGraphicsScene) */
+QGraphicsView {
+    background-color: #FFFFFF; /* Белый фон для светлой темы */
+    border: 1px solid #CCCCCC; /* Светло-серая граница */
+    color: #000000; /* Черный текст по умолчанию */
+}

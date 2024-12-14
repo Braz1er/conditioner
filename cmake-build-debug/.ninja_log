@@ -1,7 +1,0 @@
-# ninja log v5
-22	923	7541473723080319	radarmmstest_autogen/timestamp	3cd8874f7e920f08
-22	923	7541473723080319	radarmmstest_autogen/mocs_compilation.cpp	3cd8874f7e920f08
-34	320	7541473851529964	radarmmstest.exe	cd450a2e6f15c9a3
-927	3785	7541473752461803	CMakeFiles/radarmmstest.dir/main.cpp.obj	e41dc4a24c197ec6
-924	3915	7541473753750298	CMakeFiles/radarmmstest.dir/radarmmstest_autogen/mocs_compilation.cpp.obj	c632c7f2e2849dd9
-931	4541	7541473760018383	CMakeFiles/radarmmstest.dir/MainWindow.cpp.obj	f333677ed8e40aee
